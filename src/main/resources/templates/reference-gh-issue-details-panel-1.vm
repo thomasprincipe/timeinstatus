@@ -1,0 +1,14 @@
+<div class="ghx-container">
+    <h4>Einstein Quotes</h4>
+    #set ($status_map = $statuses)
+    <table>
+
+    #foreach ($mapEntry in $status_map.entrySet())
+    <tr>
+        <td>$mapEntry.key</td>
+        <td>$mapEntry.value</td>
+    </tr>
+    #end
+
+    </table>
+</div>
