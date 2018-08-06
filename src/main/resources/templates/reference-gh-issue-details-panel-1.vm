@@ -1,5 +1,4 @@
 <div class="ghx-container">
-    <h4>Einstein Quotes</h4>
     #set ($status_map = $statuses)
     <table>
 
